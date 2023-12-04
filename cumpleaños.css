@@ -62,6 +62,16 @@ h1 {
     margin-top: 20px; /* Ajusta según sea necesario */
 }
 
+
+.message img {
+    width: 50%;
+    height: auto;
+    border: 4px solid #C71585; /* Añade un borde de 4px con el color #C71585 */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px 0; /* Ajusta según sea necesario */
+}
+
+
 .audio-container {
     text-align: center;
     margin-top: 20px;
