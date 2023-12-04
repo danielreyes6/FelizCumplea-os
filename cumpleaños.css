@@ -92,3 +92,24 @@ audio::-webkit-media-controls-panel {
     color: #fff; /* Color del texto de los controles de audio */
     border-radius: 8px; /* Bordes redondeados */
 }
+/* Agrega esta sección al final de tu archivo CSS */
+
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #C71585;
+    opacity: 0;
+    animation: confetti-fall 1s ease-out infinite;
+}
+
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(600px) rotate(360deg);
+        opacity: 0;
+    }
+}
